@@ -22,25 +22,25 @@ namespace projeto_final_bloco_01.Model
         }
 
         public int GetId()
-        { return this.id; }
+        { return id; }
 
         public void SetId(int id)
         { this.id = id; }
 
         public string GetNome()
-        { return this.nome; }
+        { return nome; }
 
         public void SetNome(string nome)
         { this.nome = nome; }
 
         public int GetTipo()
-        { return this.tipo; }
+        { return tipo; }
 
         public void SetTipo(int tipo)
         { this.tipo = tipo; }
 
         public decimal GetPreco()
-        { return this.preco; }
+        { return preco; }
 
         public void SetPreco(decimal preco)
         { this.preco = preco; }
@@ -55,7 +55,7 @@ namespace projeto_final_bloco_01.Model
                     break;
             }
             Console.WriteLine($"O Id do produto é: {this.id}");
-            Console.WriteLine($"O tipo do produto é: {tipo}");
+            Console.WriteLine($"O Tipo do produto é: {tipo}");
             Console.WriteLine($"O Nome do seu Produto é: {this.nome}");
             Console.WriteLine($"O Preço do seu Produto é: {this.preco:c}");
         }
